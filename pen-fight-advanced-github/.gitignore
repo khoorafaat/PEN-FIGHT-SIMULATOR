@@ -1,0 +1,17 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and local tooling
+*.log
+.cache/
+.vscode/
+.idea/
+
+# Dependencies/build output (not required by this static project)
+node_modules/
+dist/
+coverage/

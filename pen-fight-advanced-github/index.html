@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pen Fight Advanced</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/styles.css">  <meta name="description" content="A fast, physics-based pen flicking game for two players or against the computer.">
+  <meta name="theme-color" content="#dfe6e0">
+</head><body>
+<header id="hud"><div class="s" style="color:var(--blue)">Blue<b id="s0">0</b></div><div id="mid"><div id="turn"></div><div id="sub"></div></div><div class="s" style="color:var(--red)"><b id="s1">0</b>Red</div></header>
+<div class="stage"><canvas id="c" width="900" height="560"></canvas><div id="ov"></div></div>
+<div class="bar"><button id="bst">⚡ Boost (Space)</button><button id="pz">Pause (P)</button><button id="mt">Sound on (M)</button></div>
+<div class="help">Pull back from your pen and release to flick. Boost gives one 60% stronger flick per round. First to 3 rounds wins.</div>
+<script src="js/game.js" defer></script></body></html>
